@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Login from "./Components/Login"
-import FriendsList from "./Components/FriendsList"
-import AddFriend from "./Components/AddFriend"
-import UpdateFriend from "./Components/UpdateFriend"
-import DeleteFriend from "./Components/DeleteFriend"
-import PrivateRoute from "./Components/PrivateRoute"
+import Login from "./components/Login"
+import FriendsList from "./components/FriendsList"
+import AddFriend from "./components/AddFriend"
+import UpdateFriend from "./components/UpdateFriend"
+import DeleteFriend from "./components/DeleteFriend"
+import PrivateRoute from "./components/PrivateRoute"
 
 
 class App extends React.Component {
